@@ -1,6 +1,6 @@
 module.exports = {
     base: '/web_blog/',
-    title: '技术博客',
+    title: '前端相关技术博客',
     description: '一个专门写技术的博客',
     head: [
         ['link', { rel: 'icon', href: '/favicon.png' }]
@@ -12,8 +12,8 @@ module.exports = {
         repoLabel: 'GitHub',
         // 导航栏
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Blog', link: '/blog/FirstBlog' },
+            { text: '首页', link: '/' },
+            { text: '博客', link: '/blog/FirstBlog' },
             {
                 text: '选择语言',
                 items:
@@ -26,7 +26,19 @@ module.exports = {
         // 侧边栏
         sidebar: [
             ['/', '首页'],
-            ['/blog/FirstBlog', '我的第一篇博客']
+            [
+                {
+                    title: '软技能',
+                    collapsable: false,
+                    children: [
+                        '/blog/软技能/如何处理技术债'
+                    ]
+                },
+                {
+                    title: 'Group 2',
+                    children: [ /* ... */]
+                }
+            ]
         ],
         lastUpdated: 'Last Updated', // string | boolean
     }

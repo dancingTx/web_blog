@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /favicon.png
-heroText: blog-demo
-tagline: 博客示例
-actionText: 快速上手 →
+heroText: web_blog
+tagline: 前端博客
+actionText: 查看首页 →
 actionLink: /blog/FirstBlog
 features:
 - title: 简洁至上
