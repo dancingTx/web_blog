@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: /favicon.png
-heroText: 私人前端博客
-tagline: 专注前端发展三十年
-actionText: 查看首页 →
-actionLink: /blog/软技能/如何处理技术债
+heroImage: /javascript.gif
+heroText: 前端菜鸟的进阶之路
+tagline: Are You Ready ?
+actionText: GO! →
+actionLink: /blog/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 技术·博文
+  details: 专注前端技术三十年，前端路漫长，有你也有我。
+- title: 经典·面试
+  details: 搞定面试，夯实基础，进阶大厂不是梦，Got It！
+- title: 前端进阶
+  details: 入门易，精通难，一辈子搞定一件事，不简单~
 ---

@@ -1,9 +1,9 @@
 module.exports = {
     base: '/web_blog/',
-    title: '前端相关技术博客',
-    description: '一个专门写技术的博客',
+    title: '前端菜鸟的进阶之路',
+    description: '编程不易，砥砺前行',
     head: [
-        ['link', { rel: 'icon', href: '/favicon.png' }]
+        ['link', { rel: 'icon', href: '/javascript.gif' }]
     ],
     themeConfig: {
         // 你的GitHub仓库，请正确填写
@@ -13,7 +13,8 @@ module.exports = {
         // 导航栏
         nav: [
             { text: '首页', link: '/' },
-            { text: '博客', link: '/blog/软技能/如何处理技术债' },
+            { text: '技术·博文', link: '/blog/' },
+            { text: '经典·面试', link: '/question/' },
             {
                 text: '选择语言',
                 items:
@@ -25,19 +26,38 @@ module.exports = {
         ],
         // 侧边栏
         sidebar: [
-                {
-                    title: '软技能',
-                    collapsable: false,
-                    children: [
-                        '/blog/软技能/如何处理技术债'
-                    ]
-                },
-                {
-                    title: 'Group 2',
-                    children: [ /* ... */]
-                }
+            {
+                '/blog/': [
+                    '',
+                    {
+                        title: '软技能',
+                        children: [
+                            '软技能/如何处理技术债'
+                        ]
+                    },
+                    {
+                        title: 'Vue知识详解',
+                        children: [
+                            
+                        ]
+                    },
+                ],
+                '/question/': [
+                    '',
+                    {
+                        title: '面试题解',
+                        children: [
+                            ''
+                        ]
+                    }
+                ],
+                // fallback
+                '/': [
+                    '声明'
+                ]
+            }
         ],
-        lastUpdated: 'Last Updated', // string | boolean
+        lastUpdated: '上次更新', // string | boolean
         editLinks: true,
         // 默认为 "Edit this page"
         editLinkText: '在Github上编辑此页'
