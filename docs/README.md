@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: /favicon.png
-heroText: web_blog
-tagline: 前端博客
+heroText: 私人前端博客
+tagline: 专注前端发展三十年
 actionText: 查看首页 →
-actionLink: /blog/FirstBlog
+actionLink: /blog/软技能/如何处理技术债
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
