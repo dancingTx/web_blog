@@ -99,7 +99,9 @@
 
     JSONP 的缺点是：它只支持 GET 请求，而不支持 POST 请求等其他类型的 HTTP 请求。	
 
+## 原文链接
 
+[你真的了解 Cookie 和 Session 吗?](https://www.cnblogs.com/ityouknow/p/10856177.html)
 
 
 
