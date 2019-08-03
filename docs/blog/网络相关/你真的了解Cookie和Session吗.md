@@ -35,7 +35,9 @@
 
 那么 Cookie 和 Session 是如何配合的呢？
 
-![](https://github.com/ytx1150328467/web_preview/blob/master/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3/images/cookie-session.png)
+<!-- ![](https://github.com/ytx1150328467/web_preview/blob/master/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3/images/cookie-session.png) -->
+![](./images/cookie-session.png)
+
 
 用户第一次请求服务器的时候，服务器根据用户提交的相关信息，创建相应的 Session , 请求返回时将此 Session 的唯一标识信息 SessionID 返回给浏览器，浏览器接收到服务器返回的 SessionID 信息后，会将此信息存入 Cookie 中，同时 Cookie 记录此 SessionID 属于哪个域名。
 
