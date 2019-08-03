@@ -22,7 +22,11 @@
 
 #### H5移动端
 
-- **[基于淘宝弹性布局方案lib-flexible的问题研究](./docs/blog/HTML5相关/H5移动端/基于淘宝弹性布局方案lib-flexible的问题研究)**
-- **[使用Flexible实现手淘H5页面的终端适配](./docs/blog/HTML5相关/H5移动端/使用Flexible实现手淘H5页面的终端适配)**
+- **[基于淘宝弹性布局方案lib-flexible的问题研究](./docs/blog/HTML5相关/H5移动端/基于淘宝弹性布局方案lib-flexible的问题研究.md)**
+- **[使用Flexible实现手淘H5页面的终端适配](./docs/blog/HTML5相关/H5移动端/使用Flexible实现手淘H5页面的终端适配.md)**
+
+### H5中的WebAPI
+
+- **[【H5】FileReader](.docs/blog/HTML5相关/H5中的WebAPI/[H5]FileReader.md)**
 
 ## 经典·面试

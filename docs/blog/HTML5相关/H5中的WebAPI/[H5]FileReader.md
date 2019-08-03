@@ -1,12 +1,12 @@
-### FileReader
+# FileReader
 
 > FileReader是H5中的WebAPI，它允许Web应用应用程序异步读取存储在用户计算机中的文件（或原始数据缓冲区）的内容，使用`File`或`Blob`对象指定要读取的文件或数据。
 
-**构造函数**
+## 构造函数
 
 `FileReader()`返回一个新构造的FileReader
 
-**属性**
+## 属性
 
 `FileReader.error` 表示在读取文件过程中发生的错误
 
@@ -20,7 +20,7 @@
 
 `FileReader.result`文件的内容，该属性只有在读取操作完成后才生效，数据格式取决于启动读取操作的方式。
 
-**事件**
+## 事件
 
 `FileReader.onabort`处理`abort`事件。该事件在读取操作被中断时触发。
 
@@ -36,7 +36,7 @@
 
 注：由于`FileReader`继承自`EventTarget`,所以所有这些事件也可以通过`addEventListener`方法使用。
 
-**方法**
+## 方法
 
 `FileReader.abort()`
 
@@ -58,7 +58,7 @@
 
 开始读取指定的`Blob`内容，一旦完成，`result`属性中将包含一个字符串以表示所读取的文件内容。
 
-**代码示例**
+## 代码示例
 
 > 当我们想实现一个上传文件即时预览图片的功能时，就可利用FileReader函数
 
