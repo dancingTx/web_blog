@@ -10,7 +10,7 @@ $ git clone git@github.com:company/project.git
 
 不服气的小沈，写了一篇博客发布到了CSDN上，还收获了不少阅读量。
 
-![](./images/微信图片_20190803194346.jpg)
+![](./images/20190803194346.jpg)
 
 **问：工作第一天小沈犯了那些错误？**
 
@@ -29,23 +29,23 @@ $ git clone git@github.com:company/project.git
 2. JSHint
 3. ESLint
 
-![](./images/微信图片_20190803195202.jpg)
+![](./images/20190803195202.jpg)
 
 ## JSLint
 
-![JSLint logo](./images/微信图片_20190803195220.jpg)
+![JSLint logo](./images/20190803195220.jpg)
 
 JSLint 可以说是最早出现的 JavaScript 的 lint 工具，由 Douglas Crockford(《JavaScript 语言精粹》作者)开发。从《JavaScript 语言精粹》的笔风就可以看出，Douglas 是一个眼里容不得瑕疵的人，所以 JSLint 也继承了这个特色，JSLint 的所有规则都是由 Douglas 自己定义的，可以说这是一个极具 Douglas 个人风格的 lint 工具，如果你要使用它，就必须接收它所有规则。值得称赞的是，JSLint 依然在更新，而且也提供了 node 版本：node-jslint。
 
 ## JSHint
 
-![JSHint logo](./images/微信图片_20190803195711.jpg)
+![JSHint logo](./images/20190803195711.jpg)
 
 由于 JSLint 让很多人无法忍受它的规则，感觉受到了压迫，所以 Anton Kovalyov(现在 Medium 工作)基于 JSLint 开发了 JSHint。JSHint 在 JSLint 的基础上提供了丰富的配置项，给了开发者极大的自由，JSHint 一开始就保持着开源软件的风格，由社区进行驱动，发展十分迅速。早期 JQuery 也是使用 JSHint 进行代码检查的，不过现在已经转移到了 ESLint 了。
 
 ## ESLint
 
-![ESLint logo](./images/微信图片_20190803200003.jpg)												
+![ESLint logo](./images/20190803200003.jpg)												
 
 ESLint 由 Nicholas C.Zakas(《JavaScript 高级程序设计》作者)于2013年6月创建，它的出现因为 Zakas 想使用 JSHint 添加一条自定义的规则，但是发现 JSHint 不支持，于是自己开发了一个。
 
@@ -66,11 +66,11 @@ return messages
 
 ES6 发布后，因为新增了很多语法，JSHint 短期内无法提供支持，而 ESLint 只需要有合适的解析器就可以进行 lint 检查。这时 babel 为 ESLint 提供了支持，开发了 babel-eslint，让 ESLint 成为了最快支持 ES6 语法的 lint 工具。
 
-![](./images/微信图片_20190803200905.jpg)
+![](./images/20190803200905.jpg)
 
 在 2016 年， ESLint 整合了与它同时诞生的另一个 lint 工具：JSCS，因为它与 ESLint 俱有异曲同工之妙，都是通过生成 AST 的方式进行规则检测。
 
-![ESLint整合JSCS](./images/微信图片_20190803201022.jpg)
+![ESLint整合JSCS](./images/20190803201022.jpg)
 
 自此，ESLint 在 JS Linter 领域一统江湖，成为了前端界的主流工具。
 
@@ -117,13 +117,13 @@ $ npm init -f / yarn
 $ eslint --init
 ```
 
-![](./images/微信图片_20190803202359.jpg)
+![](./images/20190803202359.jpg)
 
 在使用 eslint --init 后，会出现很多的用户配置项，具体可以参考： eslint cli 部分源码。
 
 经过一系列一问一答环节后，你会发现在你的文件夹的根目录下生成了一个 .eslintrc.js 文件。
 
-![](./images/微信图片_20190803202548.jpg)
+![](./images/20190803202548.jpg)
 
 ## 配置方式
 
@@ -139,7 +139,7 @@ ESLint 一共有两种配置方式：
    num == '1'
    ```
 
-   ![](./images/微信图片_20190803202826.jpg)当然我们一般使用注释是为了临时禁止某些严格的 lint 规则出现的警告：
+   ![](./images/20190803202826.jpg)当然我们一般使用注释是为了临时禁止某些严格的 lint 规则出现的警告：
 
    ```js
    /* eslint-disable */
@@ -192,13 +192,13 @@ ESLint 一共有两种配置方式：
 
    当然你也可以使用 cli 自己制定配置文件路径：
 
-![](./images/微信图片_20190803203819.jpg)
+![](./images/20190803203819.jpg)
 
 **项目级与目录级的配置**
 
 我们有如下目录结构，此时在根目录运行 ESLint，那么我们将得到两个配置文件 .eslintrc.js(项目级配置)和 src/.eslintrc.js(目录级配置)，这两个配置文件会进行合并，但是 src/.eslintrc.js 具有更高的优先级。
 
-![](./images/微信图片_20190803204516.jpg)
+![](./images/20190803204516.jpg)
 
 但是，我们只要在 src/.eslintrc.js 中配置 `'root':true`，那么 ESLint 就会认为 src 目录为根目录，不再向上查找配置。
 
@@ -275,7 +275,7 @@ ESLint 会检测未声明的变量，并发出警告，但是有些变量是我�
 
 可选的环境很多，预设值都在这个文件中进行定义，查看源码可以发现，其预设变量都引用自 globals 包。
 
-![](./images/微信图片_20190803205506.jpg)
+![](./images/20190803205506.jpg)
 
 ## 规则设置
 
@@ -293,7 +293,7 @@ var num = 1
 num == '1'
 ```
 
-![](./images/微信图片_20190803205900.jpg)
+![](./images/20190803205900.jpg)
 
 这里使用了命令行的配置方式，如果你只想对单个文件进行某个规则的校验就可以使用这种方式。
 
@@ -301,7 +301,7 @@ num == '1'
 
 我们来看下 quotes 的规则，根据官网介绍，它支持字符串和对象两个配置。
 
-![](./images/微信图片_20190803210122.jpg)
+![](./images/20190803210122.jpg)
 
 ```js
 {
@@ -428,9 +428,9 @@ cd eslint-plugin-demo
 yo eslint:plugin
 ```
 
-![](./images/微信图片_20190803212251.jpg)
+![](./images/20190803212251.jpg)
 
-![](./images/微信图片_20190803212304.jpg)
+![](./images/20190803212304.jpg)
 
 创建好项目之后，就可以开始创建一条规则了，幸运的是 generator-eslint 除了能够生成插件的模板代码外，还具有创建规则的模板代码。打开之前创建的 eslint-plugin-demo 文件夹，在该目录下添加一条规则，我们希望这条规则能够检测出我的代码中是否有 console，所以，我给该规则明明为 disable-console。
 
@@ -438,9 +438,9 @@ yo eslint:plugin
 yo eslint:rule
 ```
 
-![](./images/微信图片_20190803212528.jpg)
+![](./images/20190803212528.jpg)
 
-![](./images/微信图片_20190803212541.jpg)
+![](./images/20190803212541.jpg)
 
 接下来我们看看如何来制定 ESLint 的一个规则：
 
@@ -477,9 +477,9 @@ module.export = {
 
 在详细讲解如何创建一个规则之前，我们先来谈谈 AST(抽象语法树)。ESLint 使用了一个叫做 Espree 的 JavaScript 解析器来把 JavaScript 代码解析成为一个 AST 。然后进行深度遍历 AST，每条规则都会对匹配的过程进行监听，每当匹配到一个类型，相应的规则就会进行检查。为了方便查看 AST 的各个节点类型，这里提供了一个网站能十分清晰的查看一段代码解析成 AST 之后的样子：astexplorer。如果你想找到所有 AST 节点的类型，可以查看 estree。
 
-![](./images/微信图片_20190803213444.jpg)
+![](./images/20190803213444.jpg)
 
-![](./images/微信图片_20190803213456.jpg)
+![](./images/20190803213456.jpg)
 
 可以看到 console.log() 属于 ExpressionStatement(表达式语句) 中的 CallExpression(调用语句)。
 
@@ -606,7 +606,7 @@ ruleTester.run('disable-console',rule,{
 })
 ```
 
-![](./images/微信图片_20190803215708.jpg)
+![](./images/20190803215708.jpg)
 
 最后，只需要引入插件，然后开启规则即可。
 
@@ -623,11 +623,11 @@ module.exports = {
 }
 ```
 
-![](./images/微信图片_20190803215837.jpg)
+![](./images/20190803215837.jpg)
 
 ## 最佳配置
 
-![](./images/微信图片_20190803215900.jpg)
+![](./images/20190803215900.jpg)
 
 业界有许多 JavaScript 的推荐编码规范，较为出名的就是下面两个：
 
