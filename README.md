@@ -1,11 +1,21 @@
 # 前端相关技术收集及高频面试题汇总
+
 ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
-**[在线阅读(Github+VuePress)](https://dancingtx.github.io/web_blog/)**
 
-## 相关技术摘要
+在线阅读会更加流畅~👇👇👇👇👇👇
 
-### 技术·博文
+👁👁👁**[在线阅读(Github+VuePress)](https://dancingtx.github.io/web_blog/)**👁👁👁
 
+## 技术·博文
 
+### 软技能
 
-### 经典·面试
+- 如何处理技术债
+
+### 网络协议知多少
+
+- TCP的三次握手和四次挥手
+- 你真的了解Cookie和Session吗
+- 前端常见跨域解决方案
+
+## 经典·面试
