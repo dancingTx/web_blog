@@ -8,15 +8,12 @@
 
 ## 技术·博文
 
-### 软技能
+### JavaScript
 
-- **[如何处理技术债](./docs/blog/软技能/如何处理技术债.md)**
-
-### 网络协议知多少
-
-- **[TCP的三次握手和四次挥手](./docs/blog/网络相关/TCP的三次握手和四次挥手.md)**
-- **[你真的了解Cookie和Session吗](./docs/blog/网络相关/你真的了解Cookie和Session吗.md)**
-- **[前端常见跨域解决方案](./docs/blog/网络相关/前端常见跨域解决方案.md)**
+- **[JS知识概览](./docs/blog/JavaScript相关/JS知识概览)**
+- **[JS所有内置对象属性和方法汇总](./docs/blog/JavaScript相关/JS所有内置对象属性和方法汇总)**
+- **[深入理解javascript原型和闭包](./docs/blog/JavaScript相关/深入理解javascript原型和闭包)**
+- **[由数组去重谈性能优化](./docs/blog/JavaScript相关/由数组去重谈性能优化)**
 
 ### HTML5
 
@@ -27,6 +24,16 @@
 
 ### H5中的WebAPI
 
-- **[【H5】FileReader](.docs/blog/HTML5相关/H5中的WebAPI/[H5]FileReader.md)**
+- **[【H5】FileReader](./docs/blog/HTML5相关/H5中的WebAPI/[H5]FileReader.md)**
+
+### 网络协议知多少
+
+- **[TCP的三次握手和四次挥手](./docs/blog/网络相关/TCP的三次握手和四次挥手.md)**
+- **[你真的了解Cookie和Session吗](./docs/blog/网络相关/你真的了解Cookie和Session吗.md)**
+- **[前端常见跨域解决方案](./docs/blog/网络相关/前端常见跨域解决方案.md)**
+
+### 软技能
+
+- **[如何处理技术债](./docs/blog/软技能/如何处理技术债.md)**
 
 ## 经典·面试

@@ -1,8 +1,11 @@
 # 博文摘要
 
-## 软技能
+## JavaScript
 
-- **[如何处理技术债](./软技能/如何处理技术债)**
+- **[JS知识概览](./JavaScript相关/JS知识概览)**
+- **[JS所有内置对象属性和方法汇总](./JavaScript相关/JS所有内置对象属性和方法汇总)**
+- **[深入理解javascript原型和闭包](./JavaScript相关/深入理解javascript原型和闭包)**
+- **[由数组去重谈性能优化](./JavaScript相关/由数组去重谈性能优化)**
 
 ## HTML5
 
@@ -14,3 +17,7 @@
 ### H5中的WebAPI
 
 - **[【H5】FileReader](./HTML5相关/H5中的WebAPI/[H5]FileReader)**
+
+## 软技能
+
+- **[如何处理技术债](./软技能/如何处理技术债)**
