@@ -10,7 +10,8 @@
 
 ### 软技能
 
-- **[如何处理技术债](https://github.com/dancingTx/web_blog/blob/master/docs/blog/%E8%BD%AF%E6%8A%80%E8%83%BD/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%80%BA.md)**
+<!-- - **[如何处理技术债](https://github.com/dancingTx/web_blog/blob/master/docs/blog/%E8%BD%AF%E6%8A%80%E8%83%BD/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%80%BA.md)** -->
+- **[如何处理技术债](./docs/blog/软技能/如何处理技术债.md)**
 
 ### 网络协议知多少
 
