@@ -10,7 +10,7 @@ $ git clone git@github.com:company/project.git
 
 不服气的小沈，写了一篇博客发布到了CSDN上，还收获了不少阅读量。
 
-![](E:/code/web_blog/docs/blog/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190803194346.jpg)
+![](./images/微信图片_20190803194346.jpg)
 
 **问：工作第一天小沈犯了那些错误？**
 
@@ -25,9 +25,9 @@ $ git clone git@github.com:company/project.git
 
 在 JavaScript 20 多年的发展历程中，也出现过许许多多的 lint 工具，下面就来介绍下主流的三款 lint 工具。
 
-- 1. JSLint
-- 2. JSHint
-- 3. ESLint
+1. JSLint
+2. JSHint
+3. ESLint
 
 ![](./images/微信图片_20190803195202.jpg)
 
