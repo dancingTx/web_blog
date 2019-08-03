@@ -15,14 +15,6 @@ module.exports = {
             { text: '首页', link: '/' },
             { text: '技术·博文', link: '/blog/' },
             { text: '经典·面试', link: '/question/' },
-            // {
-            //     text: '选择语言',
-            //     items:
-            //         [
-            //             { text: '简体中文', link: '/language/simple-chinese' },
-            //             { text: 'English', link: '/language/english' }
-            //         ]
-            // }
         ],
         // 侧边栏
         sidebar: {
@@ -31,6 +23,14 @@ module.exports = {
                     title: '软技能',
                     children: [
                         '软技能/如何处理技术债'
+                    ]
+                },
+                {
+                    title: '网络协议',
+                    children: [
+                        '网络相关/你真的了解Cookie和Session吗',
+                        '网络相关/前端常见跨域解决方案',
+                        '网络相关/TCP的三次握手和四次挥手'
                     ]
                 },
                 '声明'
