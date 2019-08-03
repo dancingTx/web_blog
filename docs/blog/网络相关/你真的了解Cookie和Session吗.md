@@ -35,7 +35,7 @@
 
 那么 Cookie 和 Session 是如何配合的呢？
 
-<!-- ![](https://github.com/ytx1150328467/web_preview/blob/master/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3/images/cookie-session.png) -->
+
 ![](./images/cookie-session.png)
 
 
@@ -91,9 +91,9 @@
 
   - 其他跨域解决方案
 
-    重点谈一下 Jsonp 跨域原理。浏览器的同源策略把跨域请求都禁止了，但是页面中的<script>
+    重点谈一下 Jsonp 跨域原理。浏览器的同源策略把跨域请求都禁止了，但是页面中的`<script>`
 
-    <img><iframe> 等标签是例外，不受同源策略的西限制。Jsonp 就是利用 <script> 标签跨域特性进行跨域数据访问。
+    `<img>` `<iframe>`等标签是例外，不受同源策略的西限制。Jsonp 就是利用`<script>`标签跨域特性进行跨域数据访问。
 
     Jsonp 的理念是，与服务端约定好一个回调函数名，服务端接收到请求后，将返回一段 JavaScript，在这段 JavaScript 代码中调用约定好的回调函数，并且将数据作为参数进行传递。当网页接收到这段 JavaScript 代码后，就会执行这个回调函数，这时数据已经成功传输到客户端了。
 

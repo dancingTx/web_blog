@@ -33,6 +33,13 @@ module.exports = {
                         '网络相关/TCP的三次握手和四次挥手'
                     ]
                 },
+                {
+                    title: 'HTML5',
+                    children: [
+                        '/HTML5相关/H5移动端/基于淘宝弹性布局方案lib-flexible的问题研究',
+                        '/HTML5相关/H5移动端/使用Flexible实现手淘H5页面的终端适配'
+                    ]
+                },
                 '声明'
             ],
 
