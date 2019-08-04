@@ -29,6 +29,15 @@ module.exports = {
                     ]
                 },
                 {
+                  title: 'JS框架-Vue篇',
+                  children: [
+                      'Vue相关/Vue组件间通信六种方式（完整版）',
+                      'Vue相关/Vuex用法详解',
+                      'Vue相关/Vue官方推荐的风格指南',
+                      'Vue相关/Vue简易实现'
+                  ]
+                },
+                {
                     title: 'H5移动端',
                     children: [
                         'HTML5相关/H5移动端/基于淘宝弹性布局方案lib-flexible的问题研究',
