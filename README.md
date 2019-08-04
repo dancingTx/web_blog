@@ -43,14 +43,14 @@
 - **[你真的了解Cookie和Session吗](./docs/blog/网络相关/你真的了解Cookie和Session吗.md)**
 - **[前端常见跨域解决方案](./docs/blog/网络相关/前端常见跨域解决方案.md)**
 
-### 算法与编程
-
-#### LeetCode
-
-- **[[js]#20.有效的括号](./docs/question/leetcode/[js]#20.有效的括号.md)**
-
 ### 软技能
 
 - **[如何处理技术债](./docs/blog/软技能/如何处理技术债.md)**
 
 ## 经典·面试
+
+### 算法与编程
+
+#### LeetCode
+
+- **[[js]$20.有效的括号](./docs/question/leetcode/[js]$20.有效的括号.md)**

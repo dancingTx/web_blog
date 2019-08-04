@@ -80,7 +80,7 @@ module.exports = {
                 {
                     title: 'LeetCode',
                     children: [
-                        'leetcode/[js]#20.有效的括号'
+                        'leetcode/[js]$20.有效的括号'
                     ]
                 }
             ],
