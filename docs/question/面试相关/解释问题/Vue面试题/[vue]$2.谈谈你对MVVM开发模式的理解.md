@@ -9,7 +9,7 @@ MVVM模式，顾名思义即 Model-View-ViewModel 模式。它萌芽于2005年�
 - View层：作为视图模板存在，在MVVM里，整个View是一个动态模板。除了定义结构、布局外，它展示的是ViewModel层的数据和状态。View层不负责处理状态，View层做的是`数据绑定的声明、指令的声明、事件绑定的声明`。
 
 - ViewModel层：把View需要的层数据暴露，并对View层的数据绑定声明、指令生命、事件绑定声明负责，也就是处理View层的具体业务逻辑。ViewModel底层会做好绑定属性的监听。当ViewModel中数据变化，View层会得到更新；而当View中声明了数据的双向绑定(通常是表单元素)，框架也会监听View层(表单)值的变化。一旦值变化，View层绑定的ViewModel中的数据也会得到自动更新。
-![](https://github.com/dancingTx/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E8%A7%A3%E9%87%8A%E6%80%A7%E9%97%AE%E9%A2%98(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/Vue%E9%9D%A2%E8%AF%95%E9%A2%98/images/16c498ca0de66530.jpg)
+![](./images/16c498ca0de66530.jpg)
 
 **MVVM的优缺点**
 

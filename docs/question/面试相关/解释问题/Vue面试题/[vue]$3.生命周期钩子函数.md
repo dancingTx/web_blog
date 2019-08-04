@@ -44,7 +44,7 @@ Vue实例有一个完整的生命周期，也就是从开始创建、初始化�
 最后就是销毁组件的钩子函数`beforeDestroy`和`destroyed`。前者适合移除事件、定时器等，否则可能会引起内存泄漏的问题。然后进行一系列的销毁操作，如果有子组件的话，也会递归销毁子组件，所有子组件都销毁完毕后才会执行根组件的`destroyed`钩子函数。
 
 **生命周期示意图**
-![](https://github.com/dancingTx/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E8%A7%A3%E9%87%8A%E6%80%A7%E9%97%AE%E9%A2%98(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/Vue%E9%9D%A2%E8%AF%95%E9%A2%98/images/16c498ca0e16ac26.jpg)
+![](./images/16c498ca0e16ac26.jpg)
 
 **异步请求适合在那个生命周期调用？**
 

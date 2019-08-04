@@ -2,7 +2,7 @@
 
 可以参考如下图理解：（图片来自《HTTP权威指南》）
 
-![](https://github.com/ytx1150328467/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E8%A7%A3%E9%87%8A%E6%80%A7%E9%97%AE%E9%A2%98(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/HTTP%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98/images/2862899185-5c0d0bf5b5a52.png)
+![](./images/2862899185-5c0d0bf5b5a52.png)
 
 描述：
 

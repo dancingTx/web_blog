@@ -64,11 +64,40 @@
 
 ### 解释问题
 
+#### JavaScript
+
+- **[[js]$1.为什么0.1+0.2！==0.3](./docs/question/面试相关/解释问题/JavaScript面试题/[js]$1.为什么0.1+0.2！==0.3.md)**
+
+#### Vue
+
+- **[[vue]$1.你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解](./docs/question/面试相关/解释问题/Vue面试题/[vue]$1.你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解.md)**
+- **[[vue]$2.谈谈你对MVVM开发模式的理解](./docs/question/面试相关/解释问题/Vue面试题/[vue]$2.谈谈你对MVVM开发模式的理解.md)**
+- **[[vue]$3.生命周期钩子函数](./docs/question/面试相关/解释问题/Vue面试题/[vue]$3.生命周期钩子函数.md)**
+- **[[vue]$4.组件通信](./docs/question/面试相关/解释问题/Vue面试题/[vue]$4.组件通信.md)**
+- **[[vue]$5.v-show与v-if区别](./docs/question/面试相关/解释问题/Vue面试题/[vue]$5.v-show与v-if区别.md)**
+- **[[vue]$6.组件中data什么时候可以使用对象](./docs/question/面试相关/解释问题/Vue面试题/[vue]$6.组件中data什么时候可以使用对象.md)**
+- **[[vue]$7.vue中怎么重置data？](./docs/question/面试相关/解释问题/Vue面试题/[vue]$7.vue中怎么重置data？.md)**
+- **[[vue]$8.vue渲染模板时怎么保留模板中的HTML注释呢？](./docs/question/面试相关/解释问题/Vue面试题/[vue]$8.vue渲染模板时怎么保留模板中的HTML注释呢？.md)**
+- **[[vue]$9.computed和watch有什么区别？](./docs/question/面试相关/解释问题/Vue面试题/[vue]$9.computed和watch有什么区别？.md)**
+
+#### HTTP 网络协议
+
+- **[[http]$1.HTTP中常用的请求方法有哪些？哪些请求方法是安全的？为什么？](./docs/question/面试相关/解释问题/HTTP相关面试题/[http]$1.HTTP中常用的请求方法有哪些？哪些请求方法是安全的？为什么？.md)**
+- **[[http]$2.HTTP中POST和GET方法有什么区别？](./docs/question/面试相关/解释问题/HTTP相关面试题/[http]$2.HTTP中POST和GET方法有什么区别？.md)**
+- **[[http]$3.在浏览器中输入URL到页面进行渲染的过程中发生了什么？](./docs/question/面试相关/解释问题/HTTP相关面试题/[http]$3.在浏览器中输入URL到页面进行渲染的过程中发生了什么？.md)**
+- **[[http]$4.HTTP中常见的状态码有哪些？分别表示什么意思？](./docs/question/面试相关/解释问题/HTTP相关面试题/[http]$4.HTTP中常见的状态码有哪些？分别表示什么意思？.md)**
+
 ### 原理实现
 
+- **[[js]#1.实现一个instanceOf](./docs/question/面试相关/原理实现/[js]#1.实现一个instanceOf.md)**
+- **[[js]#2.深浅拷贝的实现](./docs/question/面试相关/原理实现/[js]#2.深浅拷贝的实现.md)**
+- **[[js]#3.实现一个简易Promise](./docs/question/面试相关/原理实现/[js]#3.实现一个简易Promise.md)**
+- **[[js]#4.实现call，apply，bind](./docs/question/面试相关/原理实现/[js]#4.实现call，apply，bind.md)**
+- **[#5.实现new](./docs/question/面试相关/原理实现/[js]#5.实现new.md)**
+- **[[js]#6.理解与实现函数节流与函数防抖](./docs/question/面试相关/原理实现/[js]#6.理解与实现函数节流与函数防抖.md)**
 
 ### 算法与编程
 
 #### LeetCode
 
-- **[[js]$20.有效的括号](././docs/question/leetcode/[js]$20.有效的括号.md)**
+- **[[js]$20.有效的括号](./docs/question/leetcode/[js]$20.有效的括号.md)**
