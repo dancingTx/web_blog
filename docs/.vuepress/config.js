@@ -2,6 +2,9 @@ module.exports = {
     base: '/web_blog/',
     title: '前端菜鸟的进阶之路',
     description: '编程不易，砥砺前行',
+    markdown: {
+        lineNumbers: true
+    },
     head: [
         ['link', { rel: 'icon', href: '/favicon.png' }]
     ],
@@ -29,13 +32,13 @@ module.exports = {
                     ]
                 },
                 {
-                  title: 'JS框架-Vue篇',
-                  children: [
-                      'Vue相关/Vue组件间通信六种方式（完整版）',
-                      'Vue相关/Vuex用法详解',
-                      'Vue相关/Vue官方推荐的风格指南',
-                      'Vue相关/Vue简易实现'
-                  ]
+                    title: 'JS框架-Vue篇',
+                    children: [
+                        'Vue相关/Vue组件间通信六种方式（完整版）',
+                        'Vue相关/Vuex用法详解',
+                        'Vue相关/Vue官方推荐的风格指南',
+                        'Vue相关/Vue简易实现'
+                    ]
                 },
                 {
                     title: 'H5移动端',
