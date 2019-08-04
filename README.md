@@ -47,7 +47,7 @@
 
 #### LeetCode
 
-- **[[js]#20.有效的括号](./docs/blog/leetcode/[js]#20.有效的括号.md)**
+- **[[js]#20.有效的括号](./docs/question/leetcode/[js]#20.有效的括号.md)**
 
 ### 软技能
 
