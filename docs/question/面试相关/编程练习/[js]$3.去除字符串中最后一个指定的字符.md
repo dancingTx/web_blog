@@ -4,10 +4,22 @@
 
   ​	去除字符串中最后一个指定的字符
 
-  	- 利用字符串substring方法
+- 示例：
 
   ```js
   let str = 'abcdefgacbd'
+  input: delChar(str,'a')
+  
+  output: 'abcdefgcbd'
+  ```
+
+- 实现：
+
+  > 利用字符串substring方法
+
+  
+
+  ```js
   function delChar(str,point) {
       let index = str.lastIndexOf(point)
       if(index !== -1) {
@@ -18,10 +30,11 @@
   }
   ```
 
-  	- 利用数组splice方法
+  > 利用数组splice方法
+
+  
 
   ```js
-  let str = 'abcdefgacbd'
   function delChar(str,point) {
       let index = str.lastIndexOf(point)
       if(index !== -1) {
@@ -33,7 +46,3 @@
       }
   }
   ```
-
-  
-
-  

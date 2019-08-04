@@ -4,6 +4,17 @@
 
   写一个方法去掉字符串中的空格，要求传入不同的类型分别能去掉前、后、前后、中间的空格
 
+- 示例：
+
+  ```js
+  let str = ' s t r ' 
+  input: trimSpace(str,POSITION.left)
+  
+  output: 's t r '
+  ```
+
+- 实现：
+
   ```js
   let POSITION = Object.freeze({
       left: Symbol(),// 前
@@ -12,7 +23,7 @@
       center: Symbol(),// 中间
       all: Symbol() // 全部
   })
-  let str = ' s t r ' 
+  
   function trimSpace(str,position=POSITION.both) {
       if(!!POSITION[position]) throw new Error('unexcept position value')
       if(typeof str !== 'string') throw new Error('not a string')
@@ -40,7 +51,5 @@
       }
       return str
   }
-  console.log(trimSpace(str,POSITION.left))
   ```
-
   
