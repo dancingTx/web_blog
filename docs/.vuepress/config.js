@@ -54,7 +54,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '前端自动化工程',
+                    title: '前端自动化及工具',
                     children: [
                         '前端自动化/深入理解ESLint.md',
                     ]
@@ -78,8 +78,9 @@ module.exports = {
 
             '/question/': [
                 {
-                    title: '面试题解',
+                    title: 'LeetCode',
                     children: [
+                        'leetcode/[js]#20.有效的括号'
                     ]
                 }
             ],
