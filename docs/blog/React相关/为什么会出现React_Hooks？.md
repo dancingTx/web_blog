@@ -1,6 +1,6 @@
 # 为什么会出现React Hooks?
 
-![](./images/why-react-hooks.webp)
+![](./images/why-react-hooks.jpg)
 
 > 当你要学习一个新事物的时候，你应该做的第一件事就是问自己两个问题
 
