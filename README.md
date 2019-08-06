@@ -23,7 +23,7 @@
 - **[Vue简易实现](./docs/blog/Vue相关/Vue简易实现.md)**
 
 ### React
-- **[为什么会出现React_Hooks？](./docs/blog/React相关/为什么会出现React_Hooks？.md)**
+- **[为什么会出现React_Hooks？](./React相关/为什么会出现React_Hooks？.md)**
 
 ### HTML5
 
