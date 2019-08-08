@@ -93,12 +93,12 @@
 
 ### 原理实现
 
-- **[[js]#1.实现一个instanceOf](./docs/question/面试相关/原理实现/[js]$1.实现一个instanceOf.md)**
-- **[[js]#2.深浅拷贝的实现](./docs/question/面试相关/原理实现/[js]$2.深浅拷贝的实现.md)**
-- **[[js]#3.实现一个简易Promise](./docs/question/面试相关/原理实现/[js]$3.实现一个简易Promise.md)**
-- **[[js]#4.实现call，apply，bind](./docs/question/面试相关/原理实现/[js]$4.实现call，apply，bind.md)**
-- **[[js]#5.实现new](./docs/question/面试相关/原理实现/[js]$5.实现new.md)**
-- **[[js]#6.理解与实现函数节流与函数防抖](./docs/question/面试相关/原理实现/[js]$6.理解与实现函数节流与函数防抖.md)**
+- **[[js]$.实现一个instanceOf](./docs/question/面试相关/原理实现/[js]$1.实现一个instanceOf.md)**
+- **[[js]$2.深浅拷贝的实现](./docs/question/面试相关/原理实现/[js]$2.深浅拷贝的实现.md)**
+- **[[js]$3.实现一个简易Promise](./docs/question/面试相关/原理实现/[js]$3.实现一个简易Promise.md)**
+- **[[js]$4.实现call，apply，bind](./docs/question/面试相关/原理实现/[js]$4.实现call，apply，bind.md)**
+- **[[js]$5.实现new](./docs/question/面试相关/原理实现/[js]$5.实现new.md)**
+- **[[js]$6.理解与实现函数节流与函数防抖](./docs/question/面试相关/原理实现/[js]$6.理解与实现函数节流与函数防抖.md)**
 
 ### 算法与编程
 

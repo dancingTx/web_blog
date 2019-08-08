@@ -4,7 +4,7 @@
 
 **问题1:** 如果实现了dom拖拽功能，但是在绑定拖拽事件的时候发现每当元素稍微移动一点便触发了大量的回调函数，导致浏览器直接卡死，这个时候怎么办？
 
-![](https://github.com/ytx1150328467/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/images/timer.png)
+![](./images/timer.png)
 
 **问题2:** 如果按钮绑定了表单提交的`POST`请求，但是当用户在网络不佳的时候，多次点击按钮导致表单重复提交，如何防止多次提交的发生？
 
@@ -31,13 +31,13 @@
 
 函数防抖如图
 
-![](https://github.com/ytx1150328467/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/images/timer2.png)
+![](./images/timer2.png)
 
 由于始终无法等待一秒钟就被再次触发，因此最终没有一次事件成功。
 
 函数节流如图
 
-![](https://github.com/ytx1150328467/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/images/timer3.png)
+![](./images/timer3.png)
 
 因为控制了最多一秒一次，频率为`0.5s/次`,所以没过一秒钟就有一次事件作废。最终控制成`1s/次`
 
@@ -45,13 +45,13 @@
 
 函数防抖如图
 
-![](https://github.com/ytx1150328467/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/images/timer4.png)
+![](./images/timer4.png)
 
 因为`2s/次`已经超过规定的最小时间，所以每计时两秒便触发一次。
 
 函数节流如图
 
-![](https://github.com/ytx1150328467/web_preview/blob/master/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/%E9%9D%A2%E8%AF%95%E4%B8%AD%E7%9A%84%E5%8E%9F%E7%90%86%E5%AE%9E%E7%8E%B0(%E6%8E%92%E5%90%8D%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E)/images/timer5.png)
+![](./images/timer5.png)
 
 同样，`2s/次`超过了最小规定时间，因此每一次触发都生效。
 

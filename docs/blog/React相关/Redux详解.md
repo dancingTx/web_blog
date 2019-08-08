@@ -1,4 +1,4 @@
-# Redux详解？
+# Redux详解
 
 ## 什么是Redux
 
