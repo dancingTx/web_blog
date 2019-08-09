@@ -15,7 +15,7 @@
 
 如果你已经使用 React 足够久，你就会记得 React.createClassAPI。这是我们最初创建 React 组件的方式。用来描述组件的所有信息都将作为对象传递给`createClass`。
 
-```react
+```js
 const ReposGrid = React.createClass({
     getInitialState() {
         return {
@@ -73,7 +73,7 @@ const ReposGrid = React.createClass({
 
 React v0.13.0 中引入了React.Component API，它允许我们从(现在)原生 JavaScript 类中创建 React 组件。这是一场巨大的胜利，因为它更好的与 ECMAScript 标准结合在了一起。
 
-```react
+```js
 class ReposGrid extends React.Component {
     constructor(props) {
         super(props)
@@ -129,7 +129,7 @@ class ReposGrid extends React.Component {
 
 使用类组件，您可以在`constructor`方法内部将组件的状态初始化为实例(this)上的 state 属性。但是，根据 ECMAScript 规范，如果要扩展子类(这里指的是 React.Component)，必须先调用`super`属性，然后才能使用 this。具体来说，当使用 React 时，我们也需记得将`props`属性传递给`super`。
 
-```react
+```js
 constructor (props) {
     super(props) // 🤮
 
@@ -141,7 +141,7 @@ constructor (props) {
 
 当使用`createClass`时，React 会自动将所有方法绑定在组件的实例上，也就是 `this`。当有了 React.Component 后，情况就不同了。很快，各地的 React 开发人员都意识到了他们不知道`this`关键字是如何工作的。我们不得不记住类中的`constructor`中的`bind`方法。如果你不这样做，则会出现经常出现的错误 __Cannot read property `setState` of undefined__
 
-```react
+```js
   constructor (props) {
     ...
 
@@ -155,7 +155,7 @@ constructor (props) {
 
 类字段允许我们直接将实例属性作为属性添加到类上，而无需使用`constructor`。这对我们来说，意味着，使用类字段，我们之前所讨论的两个`浅显`的问题都将迎刃而解。我们不再需要使用`constructor`来设置组件的初始状态，也不再需要在`constructor`中使用`bind`函数，因为我们完全可以为方法使用箭头函数。
 
-```react
+```js
 class ReposGrid extends React.Component {
   state = {
     repos: [],
@@ -212,7 +212,7 @@ React 的整体理念时，通过将应用程序分解为可以组合在一起�
 
 过去，我们构建的 React 组件的方式与组件的声明周期是耦合的。这种划分自然而然的迫使我们在整个组件中散布着相关逻辑。在我们的所使用的 ReposGrid 组件示例中，我们可以很清楚的了解到这一点。我们需要三个单独的方法`componentDidMount、componentDidUpdate和updateRepos`来完成相同的任务——使`repos`与任何 `props.id`保持同步。
 
-```react
+```js
 componentDidMount () {
     this.updateRepos(this.props.id)
   }
@@ -238,7 +238,7 @@ componentDidMount () {
 
 当你在 React 中考虑构图时，你很有可能会考虑 UI 构图。这是很正常的，因为这正是 React 所擅长的。
 
-```react
+```js
 view = fn(state)
 ```
 
@@ -246,7 +246,7 @@ view = fn(state)
 
 继续看我们的示例，假设我们需要另一个同样需要`repos` 状态的组件。现在，该状态和处理它的逻辑位于 ReposGrid 组件中。我们该如何做呢？最简单的方式就是复制所有用于获取和处理`repos`的逻辑，并将其粘贴到新组件中。听起来还不错，但它并不是一个好的方案。一个更聪明的方法是创建一个高阶组件，它封装了所有的共享逻辑，并将`loading`和`repos`作为`props`传递给任何需要它的组件。
 
-```react
+```js
 function withRepos (Component) {
   return class WithRepos extends React.Component {
     state = {
@@ -284,7 +284,7 @@ function withRepos (Component) {
 
 当应用程序中的任何组件需要`repos`(或加载)时，我们可以将其封装在 withRepos HOC 中。
 
-```react
+```js
 // ReposGrid.js
 function ReposGrid ({ loading, repos }) {
   ...
@@ -293,7 +293,7 @@ function ReposGrid ({ loading, repos }) {
 export default withRepos(ReposGrid)
 ```
 
-```react
+```js
 // Profile.js
 function Profile ({ loading, repos }) {
   ...
@@ -306,7 +306,7 @@ export default withRepos(Profile)
 
 首先，如果你不够熟悉它们(即使你熟悉)，你会有点发懵。使用 withRepos  HOC ，我们有一个函数，它以最终呈现的组件作为第一个参数，但返回一个新的类组件，这就是逻辑所在。一个多么复杂的过程啊。接下来，如果我们调用多个 HOC，又会怎么样呢？你可以想象，它很快就失控了。
 
-```react
+```js
 export default withHover(
   withTheme(
     withAuth(
@@ -318,7 +318,7 @@ export default withHover(
 
 比这更糟的是最终得到的结果。HOCs(和类似的模式)迫使我们必须重新构造和包装组件。这最终可能导致`包装地狱`，这又一次使它更难遵循。
 
-```react
+```js
 <WithHover>
   <WithTheme hovering={false}>
     <WithAuth hovering={false} theme='dark'>
@@ -363,7 +363,7 @@ export default withHover(
 
 我们不再需要调用`super(props)`，不再需要担心绑定方法或`this`关键字，也不再需要使用类字段。本质上，我们之前讨论的所有`表面`问题都会解决。
 
-```react
+```js
 (ノಥ,_｣ಥ)ノ彡 React.Component 🗑
 
 function ヾ(Ő‿Ő✿)
@@ -383,7 +383,7 @@ function ヾ(Ő‿Ő✿)
 
 useState 只接受一个参数，即状态的初始值。它返回的是一个数组，其中第一项是状态块(也就是更改后的状态值，类似于在 this.state中定义的状态值)，第二项是更新改状态的函数(用来改变状态，类似于this.setState())。
 
-```react
+```js
 const loadingTuple = React.useState(true)
 const loading = loadingTuple[0]
 const setLoading = loadingTuple[1]
@@ -397,7 +397,7 @@ loading // false
 
 正如我们所看到的，单独获取数组中的每一项并不是最佳的开发人员体验。这是为了演示 useState 如何返回数组。通常，我们会采用数组析构的方式在一行中获取值。
 
-```react
+```js
 // const loadingTuple = React.useState(true)
 // const loading = loadingTuple[0]
 // const setLoading = loadingTuple[1]
@@ -407,7 +407,7 @@ const [ loading, setLoading ] = React.useState(true) // 👌
 
 现在，让我们使用新学习的有关于 useState 钩子的知识来更新 ReposGrid 组件。
 
-```react
+```js
 function ReposGrid ({ id }) {
   const [ repos, setRepos ] = React.useState([])
   const [ loading, setLoading ] = React.useState(true)
@@ -448,7 +448,7 @@ function ReposGrid ({ id }) {
 
 注：该函数会在组件加载期间首次运行，随后通过监听可选数组中传入的参数变化，更新函数以重新同步。
 
-```react
+```js
 React.useEffect(() => {
   document.title = `Hello, ${username}`
 }, [username])
@@ -458,7 +458,7 @@ React.useEffect(() => {
 
 现在，我们如何使用代码中的 useEffect 钩子来同步`repos`和 fetchRepos API 请求？
 
-```react
+```js
 function ReposGrid ({ id }) {
   const [ repos, setRepos ] = React.useState([])
   const [ loading, setLoading ] = React.useState(true)
@@ -505,7 +505,7 @@ function ReposGrid ({ id }) {
 
 通过创建我们自己自定义的 useRepos 钩子，我们可以看到这一点。这个钩子将接受我们想要获取的 Repos 的`id`，并(保留类似的API)返回一个数组，其中第一项为加载状态，第二项为 Repos 状态。
 
-```react
+```js
 function useRepos (id) {
   const [ repos, setRepos ] = React.useState([])
   const [ loading, setLoading ] = React.useState(true)
@@ -526,7 +526,7 @@ function useRepos (id) {
 
 好消息是任何与获取`repos`相关的逻辑都可以在这个自定义钩子中抽象。现在，不管我们在哪个组件中，即使它是非可视逻辑，每当我们需要有关`repos`的数据时，我们都可以使用 useRepos 自定义钩子。
 
-```react
+```js
 function ReposGrid ({ id }) {
   const [ loading, repos ] = useRepos(id)
 
@@ -534,7 +534,7 @@ function ReposGrid ({ id }) {
 }
 ```
 
-```react
+```js
 function Profile ({ user }) {
   const [ loading, repos ] = useRepos(user.id)
 

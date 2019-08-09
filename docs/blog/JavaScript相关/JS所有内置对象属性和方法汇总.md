@@ -1129,7 +1129,7 @@ String.fromCharCode(0x12014)      // also returns "—"; the digit 1 is truncate
 
 示例：
 
-```
+```js
 console.log(6/0); //Infinity
 console.log(-6/0); //-Infinity
 console.log(0/0); //NaN
@@ -1144,7 +1144,7 @@ console.log(-1.7976931348623157E+10308); //-Infinity
 
 示例：
 
-```
+```js
 var a = Number('100');
 var b = Number('hello world');
 
@@ -1161,7 +1161,7 @@ console.log(isNaN(b)); //true
 
 示例：
 
-```
+```js
 var a;
 var b = '';
 var c = null;

@@ -266,7 +266,7 @@ props: {
 
 > 元素特性的顺序
 
-```j&#39;s
+```js
 - v-for
 - v-if / v-show
 - id
