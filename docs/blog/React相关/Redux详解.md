@@ -19,7 +19,7 @@
 
 可以通过一张图，看出 Redux 是如何简化状态管理的。
 
-![](E:\code\web_blog\docs\blog\React相关\images\redux\redux001.jpg)
+![](./images/redux/redux001.jpg)
 
 从图中可以看出，如果不使用 Redux，我们要传递 state 是非常繁琐的。Redux中，可以将数据预先存放在数据仓库(store-共用状态存储空间)中，可以通过 store 统一管理数据状态。当组件中有需要时，就可以通过 store 去查找自己所需状态。如果中途紫色组件想要改变组件的状态时，只需要改变 store 中的数据状态，其他组件内的状态也会相应地发生改变。
 
@@ -45,13 +45,32 @@ reducers 是一个纯函数，接受两个参数，state 和 action。只需要�
 
 **Redux 工作流程**
 
-![](E:\code\web_blog\docs\blog\React相关\images\redux\redux_flow.png)
+![](./images/redux/redux_flow.png)
 
-初学者看了这张图，可能会有点懵，接下来，咱一个一个说。
+## action
 
-## Store
+顾名思义，`action`用来表示动作，也就是通过动作来修改`state`的值。它也是修改`store`的唯一途径。
 
-首先要明确一点：`store`与`state`的区别
+`action`本质上就是一个普通的`js`对象，我们约定这个对象必须要有一个`type`字段，用来表示我们当前进行的动作名称。一般我们会使用常量来表示`type`所对应的值。
 
-`state`是应用的状态，一般本质上就是一个__普通对象__。
+此外，我们把`state`修改后的值通过`action`传递进来，因此，一个标准的`action`可能会是这个样子：
+
+```json
+{
+    type:'xxx' // type代表动作类型
+    payload: 1
+}
+```
+
+## Reducer
+
+`action`仅仅只是描述了事件触发所需的字段，但并没有表明要做那些改变，这正是`reducer`所需要做的事情。
+
+`reducer`作为纯函数，内部不建议使用任何带有副作用的操作，比如：操作外部变量，任何输入相同，输出却不一定相同的动作。
+
+如果我们的`reducer`比较繁杂，我们不能把所有的逻辑都放在一个`reducer`中处理，那么此时就需要拆分`reducer`来达到简化的目的。
+
+Redux 提供了 combineReducers API 将分离的多个`reducer`合并到一起。
+
+
 
