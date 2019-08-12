@@ -14,6 +14,7 @@
 - **[JS所有内置对象属性和方法汇总](./docs/blog/JavaScript相关/JS所有内置对象属性和方法汇总.md)**
 - **[深入理解javascript原型和闭包](./docs/blog/JavaScript相关/深入理解javascript原型和闭包.md)**
 - **[由数组去重谈性能优化](./docs/blog/JavaScript相关/由数组去重谈性能优化.md)**
+- **[Console不止log](./docs/blog/JavaScript相关/Console不止log.md)**
 
 ### Vue
 
