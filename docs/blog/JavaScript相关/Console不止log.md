@@ -285,5 +285,5 @@ console.log('%cMy name is classicemi.', 'color: #fff; background: #f40; font-siz
 
 [https://developer.mozilla.org/zh-CN/docs/Web/API/Console](https://developer.mozilla.org/zh-CN/docs/Web/API/Console)
 
-[[Javascript调试命令——你只会Console.log() ?](https://segmentfault.com/a/1190000012957199)](https://segmentfault.com/a/1190000012957199)
+[Javascript调试命令——你只会Console.log() ?](https://segmentfault.com/a/1190000012957199)](https://segmentfault.com/a/1190000012957199)
 
