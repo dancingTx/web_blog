@@ -1,6 +1,6 @@
 # [译]五步理解JSON Web Token(JWT)
 
-![](E:\code\web_blog\docs\blog\网络相关\images\jwt\16c75a2347188cfc.jpg)
+![](./images/jwt/16c75a2347188cfc.jpg)
 
 在这篇文章中我们将会讲到：JSON Web Token(JWT) 的基本原理是什么，以及我们为什么要使用它？JWT 是确保我们应用程序可信和安全的重要一环。JWT 允许我们以安全的方式去表示像用户数据之类的声明。
 
@@ -20,7 +20,7 @@ header.payload.signature
 
 三个实例分别为用户，应用服务器，以及授权认证服务器。授权认证服务器将会向用户提供 JWT，有了 JWT 用户可以安全地与应用程序服务器通信。
 
-![](E:\code\web_blog\docs\blog\网络相关\images\jwt\16c75a96efe00178.jpg)
+![](./images/jwt/16c75a96efe00178.jpg)
 
 在上面的例子中，用户首先使用认证服务器的登陆系统登陆认证服务器。（比如：用户名，密码，Facebook，Google 账号登陆）。然后授权认证服务器创建 JWT，并将其发送给用户。当用户与应用程序之间有 API 调用的时候，在此过程中用户会传递 JWT。在这一步中，应用程序服务器将会验证传过来的 JWT，检查是否为认证服务器所创建（更详细的过程后面会介绍）。因为，当用户与应用程序之间使用携带的 JWT 进行 API 调用的时候，应用程序可以使用 JWT 来验证 API 调用是否来自经过身份验证的用户。
 
