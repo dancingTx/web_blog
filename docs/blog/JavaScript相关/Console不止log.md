@@ -6,9 +6,48 @@
 
 对于前端开发人员来说，最基础也是使用最频繁的功能莫过于`console.log()`，它用于在控制台打印相关信息，必要时，可以利用它调试`bug`。但是，`console`还有许多其他的用法。
 
-**tips:**因为__console 对象提供对浏览器控制台的接入，所以不同的浏览器支持形式可能有些出入。
+**tips:**因为__console 对象提供对浏览器控制台的接入__，所以不同的浏览器支持形式可能有些出入。
 
 本文基于`chrome`浏览器进行测试，如有出入，请自行辨别。
+
+## ![](./images/console/squares.svg)分类输出
+
+**console.log()/console.info()/console.warn()/console.error()**
+
+用于输出不同类别的信息
+
+```js
+console.log('文字信息');
+console.info('提示信息');
+console.warn('警告信息');
+console.error('错误信息');
+```
+
+![](./images/console/20190812140425.png)
+
+## ![](./images/console/squares.svg)分组输出
+
+**console.group()/console.groupCollapsed()/console.groupEnd()**
+
+在 Web 控制台上创建一个新的分组.随后输出到控制台上的内容都会被添加一个缩进,表示该内容属于当前分组,直到调用`console.groupEnd()`之后,当前分组结束。
+
+`console.groupCollapsed()`与`console.group()`类似，只不过前者的分组以折叠的形式输出。
+
+```js
+console.group('第一个组');
+    console.log("1-1");
+    console.log("1-2");
+    console.log("1-3");
+console.groupEnd();
+
+console.group('第二个组');
+    console.log("2-1");
+    console.log("2-2");
+    console.log("2-3");
+console.groupEnd();
+```
+
+![](./images/console/20190812140716.png)
 
 `console.group()`还可以用于嵌套调用，以显示多级分组。
 
