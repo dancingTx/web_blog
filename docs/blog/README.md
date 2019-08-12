@@ -38,7 +38,7 @@
 - **[你真的了解Cookie和Session吗](./网络相关/你真的了解Cookie和Session吗)**
 - **[前端常见跨域解决方案](./网络相关/前端常见跨域解决方案)**
 - **[HTTP缓存机制](./网络相关/HTTP缓存机制)**
-- **[[译]五步理解JSONWebToken(JWT)](./网络相关/[译]五步理解JSONWebToken(JWT))**
+- **[[译]五步理解JSON Web Token(JWT)](./网络相关/[译]五步理解JSONWebToken(JWT))**
 
 ## 软技能
 
