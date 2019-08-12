@@ -1,3 +1,15 @@
+# console 不止 log
+
+> Console 对象提供对浏览器控制台的接入（如：Firefox 的 Web Console）。不同浏览器上它的工作方式是不一样的，但这里会介绍一些大都会提供的接口特性。
+> Console对象可以在任何全局对象中访问，如 Window，WorkerGlobalScope 以及通过属性工作台提供的特殊定义。
+> 它被浏览器定义为 Window.Console，也可被简单的 Console 调用。
+
+对于前端开发人员来说，最基础也是使用最频繁的功能莫过于`console.log()`，它用于在控制台打印相关信息，必要时，可以利用它调试`bug`。但是，`console`还有许多其他的用法。
+
+**tips:**因为__console 对象提供对浏览器控制台的接入，所以不同的浏览器支持形式可能有些出入。
+
+本文基于`chrome`浏览器进行测试，如有出入，请自行辨别。
+
 `console.group()`还可以用于嵌套调用，以显示多级分组。
 
 ```js
@@ -24,9 +36,7 @@ console.groupEnd();
 
 ![](./images/console/20190812140851.png)
 
-![](./images/console/squares.svg)
-
-## 表格输出
+## ![](./images/console/squares.svg)表格输出
 
 **console.table()**
 
@@ -67,9 +77,7 @@ console.table(Arr);
 
 ![](./images/console/20190812141258.png)
 
-![](./images/console/squares.svg)
-
-## 查看对象
+## ![](./images/console/squares.svg)查看对象
 
 **console.dir()**
 
@@ -81,9 +89,7 @@ console.dir(document.location)
 
 ![](./images/console/20190812141526.png)
 
-![](./images/console/squares.svg)
-
-## 查看dom节点
+## ![](./images/console/squares.svg)查看dom节点
 
 **console.dirxml()**
 
@@ -95,9 +101,7 @@ console.dirxml(document)
 
 ![](./images/console/20190812141941.png)
 
-![](./images/console/squares.svg)
-
-## 条件输出
+## ![](./images/console/squares.svg)条件输出
 
 **console.assert()**
 
@@ -116,9 +120,7 @@ console.assert((function() { return false;})(), "会出错");
 
 ![](./images/console/20190812142316.png)
 
-![](./images/console/squares.svg)
-
-## 计次输出
+## ![](./images/console/squares.svg)计次输出
 
 **console.count()/console.countReset()**
 
@@ -136,9 +138,7 @@ console.assert((function() { return false;})(), "会出错");
 
 ![](./images/console/20190812142520.png)
 
-![](./images/console/squares.svg)
-
-## 追踪调用堆栈
+## ![](./images/console/squares.svg)追踪调用堆栈
 
 **console.trace()**
 
@@ -167,9 +167,7 @@ var x = add3(1, 1);
 
 ![](./images/console/20190812142751.png)
 
-![](./images/console/squares.svg)
-
-## 运行计时
+## ![](./images/console/squares.svg)运行计时
 
 **console.time()/console.timeEnd()**
 
@@ -188,9 +186,7 @@ console.timeEnd("Chrome中循环1000次的时间");
 
 ![](./images/console/20190812143652.png)
 
-![](./images/console/squares.svg)
-
-## console.log()中的黑科技
+## ![](./images/console/squares.svg)console.log()中的黑科技
 
 `console.log()`除了打印信息以外，还有很多其他的使用方法。
 
@@ -242,9 +238,7 @@ console.log('%cMy name is classicemi.', 'color: #fff; background: #f40; font-siz
 
 ![](./images/console/20190812144807.png)
 
-![](./images/console/squares.svg)
-
-## 总结
+## ![](./images/console/squares.svg)总结
 
 尽管`console`的用法很多，有一些在调试过程中还非常实用，但是，如果是在生产环境下，尽量不要使用上述部分功能，这有可能会造成无法预知的错误。
 
