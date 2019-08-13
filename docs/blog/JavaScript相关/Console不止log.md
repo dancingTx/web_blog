@@ -225,7 +225,7 @@ console.timeEnd("Chrome中循环1000次的时间");
 
 ![](./images/console/20190812143652.png)
 
-## ![](./images/console/squares.svg)console.log()中的黑科技
+## ![](./images/console/squares.svg)console.log() 中的黑科技
 
 `console.log()`除了打印信息以外，还有很多其他的使用方法。
 
