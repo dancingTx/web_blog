@@ -232,7 +232,7 @@ const write = async moives => {
         if(Array.isArray(old_movies) && old_movies.length) {
             // 将当前数据进行更新
             const old_movie = old_movies[0]
-            await query(`updata movies set name=?,href=?,image=?,score=? where id=?`,[
+            await query(`update movies set name=?,href=?,image=?,score=? where id=?`,[
                 name,href,image,score,old_movie.id
             ])
         } else {
@@ -255,6 +255,8 @@ module.exports = write
 - 查询数据是否存在
   - 存在：更新该项数据
   - 不存在：插入一条新数据
+
+![](./images/spider/20190821175721.png)
 
 写完了引入数据库的方法后，来简单i讲解一下SQL语句，毕竟SQL语句是大部分前端`er`的痛点。
 

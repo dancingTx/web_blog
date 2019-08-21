@@ -30,7 +30,7 @@
 - **[用Node实现爬虫](./docs/blog/Node相关/用Node实现爬虫.md)**
 
 ### NPM
-- **[动手封装一个Axios库](./docs/blog/npm相关/动手封装一个Axios库.md)**
+- **[动手封装一个Axios库](./docs/blog/NPM相关/动手封装一个Axios库.md)**
 
 ### HTML5
 
