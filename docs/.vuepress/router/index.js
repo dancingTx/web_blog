@@ -28,4 +28,4 @@ const sidebar = {
     // ]
 }
 
-export default sidebar
+module.exports = sidebar

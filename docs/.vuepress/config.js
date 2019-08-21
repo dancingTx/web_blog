@@ -1,4 +1,4 @@
-import SideBar from './router'
+const SideBar = require('./router')
 
 module.exports = {
     base: '/web_blog/',
