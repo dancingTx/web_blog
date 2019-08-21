@@ -5,4 +5,4 @@ const JS_Auto = {
     ]
 }
 
-export default JS_Auto
+module.exports = JS_Auto

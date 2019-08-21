@@ -5,4 +5,4 @@ const JS_H5_WebAPI = {
     ]
 }
 
-export default JS_H5_WebAPI
+module.exports = JS_H5_WebAPI

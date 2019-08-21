@@ -1,10 +1,27 @@
-// const SideBar = {
-//     // '/question/': [
-
-//     // ]
-// }
-// const JS_Perview = require('./router/blog/JS_Perview')
-const SideBar = require('./router')
+const BASE_URL = './router'
+const SideBar = {
+    '/blog/': [
+        require(`${BASE_URL}/blog/JS_Perview`),
+        require(`${BASE_URL}/blog/JS_Vue`),
+        require(`${BASE_URL}/blog/JS_React`),
+        require(`${BASE_URL}/blog/JS_Node`),
+        require(`${BASE_URL}/blog/JS_NPM`),
+        require(`${BASE_URL}/blog/JS_Auto`),
+        require(`${BASE_URL}/blog/JS_H5_Mobile`),
+        require(`${BASE_URL}/blog/JS_H5_WebAPI`),
+        require(`${BASE_URL}/blog/HTTP`),
+        require(`${BASE_URL}/blog/Soft_Skill`),
+        '声明'
+    ],
+    '/question/': [
+        require(`${BASE_URL}/question/Coding_Training`),
+        require(`${BASE_URL}/question/Explain_JS`),
+        require(`${BASE_URL}/question/Explain_Vue.js`),
+        require(`${BASE_URL}/question/Explain_HTTP.js`),
+        require(`${BASE_URL}/question/Theory_JS.js`),
+        require(`${BASE_URL}/question/LeetCode.js`)
+    ]
+}
 module.exports = {
     base: '/web_blog/',
     title: '前端菜鸟的进阶之路',
@@ -27,87 +44,7 @@ module.exports = {
             { text: '经典·面试', link: '/question/' },
         ],
         // 侧边栏
-        sidebar: {
-            // '/blog/': [
-            //     JS_Perview,
-                // () => import('./router/blog/JS_Perview'),
-                // () => import('./router/blog/JS_Perview'),
-                // () => import('./router/blog/JS_Vue'),
-                // () => import('./router/blog/JS_React'),
-                // () => import('./router/blog/JS_Node'),
-                // () => import('./router/blog/JS_NPM'),
-                // () => import('./router/blog/JS_Auto'),
-                // () => import('./router/blog/JS_H5_Mobile'),
-                // () => import('./router/blog/JS_H5_WebAPI'),
-                // () => import('./router/blog/HTTP'),
-                // () => import('./router/blog/Soft_skill'),
-            //     '声明'
-            // ],
-            '/question/': [
-                {
-                    title: '编程练习',
-                    children: [
-                        '面试相关/编程练习/[js]$1.用递归算法实现，数组长度为5且元素的随机数在2-32间不重复的值',
-                        '面试相关/编程练习/[js]$2.写一个方法去掉字符串中的空格，要求传入不同的类型分别能去掉前、后、前后、中间的空格',
-                        '面试相关/编程练习/[js]$3.去除字符串中最后一个指定的字符',
-                        '面试相关/编程练习/[js]$4.写一个方法把下划线命名转成大驼峰命名',
-                        '面试相关/编程练习/[js]$5.写一个把字符串大小写切换的方法',
-                        '面试相关/编程练习/[js]$6.写一个去除制表符和换行符的方法',
-                        '面试相关/编程练习/[js]$7.统计某一字符或字符串在另一个字符串中出现的次数',
-                        '面试相关/编程练习/[js]$9.写一个判断数据类型的方法',
-                        '面试相关/编程练习/[js]$10.两数之和',
-                        '面试相关/编程练习/[js]$11.将数组扁平化并去除其中重复数据，最终得到一个升序且不重复的数组',
-                        '面试相关/编程练习/[js]$12.实现一个简易的红绿灯程序'
-                    ]
-                },
-                {
-                    title: '解释问题-JavaScript篇',
-                    children: [
-                        '面试相关/解释问题/JavaScript面试题/[js]$1.为什么0.1+0.2！==0.3',
-                    ]
-                },
-                {
-                    title: '解释问题-Vue篇',
-                    children: [
-                        '面试相关/解释问题/Vue面试题/[vue]$1.你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解',
-                        '面试相关/解释问题/Vue面试题/[vue]$2.谈谈你对MVVM开发模式的理解',
-                        '面试相关/解释问题/Vue面试题/[vue]$3.生命周期钩子函数',
-                        '面试相关/解释问题/Vue面试题/[vue]$4.组件通信',
-                        '面试相关/解释问题/Vue面试题/[vue]$5.v-show与v-if区别',
-                        '面试相关/解释问题/Vue面试题/[vue]$6.组件中data什么时候可以使用对象',
-                        '面试相关/解释问题/Vue面试题/[vue]$7.vue中怎么重置data？',
-                        '面试相关/解释问题/Vue面试题/[vue]$8.vue渲染模板时怎么保留模板中的HTML注释呢？',
-                        '面试相关/解释问题/Vue面试题/[vue]$9.computed和watch有什么区别？'
-                    ]
-                },
-                {
-                    title: '解释问题-HTTP篇',
-                    children: [
-                        '面试相关/解释问题/HTTP相关面试题/[http]$1.HTTP中常用的请求方法有哪些？哪些请求方法是安全的？为什么？',
-                        '面试相关/解释问题/HTTP相关面试题/[http]$2.HTTP中POST和GET方法有什么区别？',
-                        '面试相关/解释问题/HTTP相关面试题/[http]$3.在浏览器中输入URL到页面进行渲染的过程中发生了什么？',
-                        '面试相关/解释问题/HTTP相关面试题/[http]$4.HTTP中常见的状态码有哪些？分别表示什么意思？'
-                    ]
-                },
-                {
-                    title: '原理实现',
-                    children: [
-                        '面试相关/原理实现/[js]$1.实现一个instanceOf',
-                        '面试相关/原理实现/[js]$2.深浅拷贝的实现',
-                        '面试相关/原理实现/[js]$3.实现一个简易Promise',
-                        '面试相关/原理实现/[js]$4.实现call，apply，bind',
-                        '面试相关/原理实现/[js]$5.实现new',
-                        '面试相关/原理实现/[js]$6.理解与实现函数节流与函数防抖'
-                    ]
-                },
-                {
-                    title: 'LeetCode',
-                    children: [
-                        'leetcode/[js]$20.有效的括号'
-                    ]
-                }
-            ],
-        },
+        sidebar: SideBar,
         lastUpdated: '上次更新'
     }
 }
