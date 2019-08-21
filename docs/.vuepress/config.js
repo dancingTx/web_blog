@@ -1,3 +1,4 @@
+import router from './router'
 module.exports = {
     base: '/web_blog/',
     title: '前端菜鸟的进阶之路',
@@ -21,83 +22,7 @@ module.exports = {
         ],
         // 侧边栏
         sidebar: {
-            '/blog/': [
-                {
-                    title: 'JS知识汇总',
-                    children: [
-                        'JavaScript相关/JS知识概览',
-                        'JavaScript相关/JS所有内置对象属性和方法汇总',
-                        'JavaScript相关/由数组去重谈性能优化',
-                        'JavaScript相关/深入理解javascript原型和闭包',
-                        'JavaScript相关/Console不止log'
-                    ]
-                },
-                {
-                    title: 'JS框架-Vue篇',
-                    children: [
-                        'Vue相关/Vue组件间通信六种方式（完整版）',
-                        'Vue相关/Vuex用法详解',
-                        'Vue相关/Vue官方推荐的风格指南',
-                        'Vue相关/Vue简易实现'
-                    ]
-                },
-                {
-                    title: 'JS框架-React篇',
-                    children: [
-                        'React相关/为什么会出现React_Hooks？'
-                    ]
-                },
-                {
-                    title: 'Node',
-                    children: [
-                        'Node相关/用Node实现爬虫'
-                    ]
-                },
-                {
-                    title: 'NPM',
-                    children: [
-                        // 'npm相关/动手封装一个Axios库'
-                        'npm相关/测试文档'
-                    ]
-                },
-                {
-                    title: 'H5移动端',
-                    children: [
-                        'HTML5相关/H5移动端/基于淘宝弹性布局方案lib-flexible的问题研究',
-                        'HTML5相关/H5移动端/使用Flexible实现手淘H5页面的终端适配'
-                    ]
-                },
-                {
-                    title: 'H5中的WebAPI',
-                    children: [
-                        'HTML5相关/H5中的WebAPI/[H5]FileReader'
-                    ]
-                },
-                {
-                    title: '前端自动化及工具',
-                    children: [
-                        '前端自动化/深入理解ESLint',
-                    ]
-                },
-                {
-                    title: '网络协议',
-                    children: [
-                        '网络相关/你真的了解Cookie和Session吗',
-                        '网络相关/前端常见跨域解决方案',
-                        '网络相关/TCP的三次握手和四次挥手',
-                        '网络相关/HTTP缓存机制',
-                        '网络相关/[译]五步理解JSONWebToken（JWT）'
-                    ]
-                },
-                {
-                    title: '软技能',
-                    children: [
-                        '软技能/如何处理技术债'
-                    ]
-                },
-                '声明'
-            ],
-
+            ...router,
             '/question/': [
                 {
                     title: '编程练习',

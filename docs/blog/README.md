@@ -21,8 +21,8 @@
 ## Node
 - **[用Node实现爬虫](./Node相关/用Node实现爬虫)**
 
-<!-- ### NPM
-- **[动手封装一个Axios库](./npm相关/动手封装一个Axios库)** -->
+### NPM
+- **[动手封装一个Axios库](./npm相关/动手封装一个Axios库)**
 
 ## HTML5
 
