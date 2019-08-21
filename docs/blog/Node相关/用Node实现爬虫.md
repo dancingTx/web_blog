@@ -39,7 +39,7 @@ robots.txt 文件是一个文本文件，使用任何一种常用的文本编辑
 - 启动服务
 - 渲染数据
 
-### [#](https://dancingtx.github.io/web_blog/blog/Node相关/用Node实现爬虫.html#爬取数据)爬取数据
+### 爬取数据
 
 接下来通过代码演示来爬取豆瓣电影页面的电影相关数据。
 
@@ -49,7 +49,7 @@ robots.txt 文件是一个文本文件，使用任何一种常用的文本编辑
 
 既然是**爬取数据**，就需要用到比较出名的工具------- **Request**
 
-#### [#](https://dancingtx.github.io/web_blog/blog/Node相关/用Node实现爬虫.html#request)Request
+#### Request
 
 那么，**Request**到底如何使用呢？看官方代码感受一下。
 
@@ -311,7 +311,7 @@ module.exports = write
 
    讲述了一下，接下来回归正题，开始检验代码成果。
 
-#### [#](https://dancingtx.github.io/web_blog/blog/Node相关/用Node实现爬虫.html#执行读写操作)执行读写操作
+#### 执行读写操作
 
 通过`index.js`页面，将`read.js`和`write.js`联系起来。
 
