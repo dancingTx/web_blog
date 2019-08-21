@@ -3,7 +3,8 @@
 
 //     // ]
 // }
-const JS_Perview = require('./router/blog/JS_Perview')
+// const JS_Perview = require('./router/blog/JS_Perview')
+const SideBar = require('./router')
 module.exports = {
     base: '/web_blog/',
     title: '前端菜鸟的进阶之路',
@@ -27,8 +28,8 @@ module.exports = {
         ],
         // 侧边栏
         sidebar: {
-            '/blog/': [
-                JS_Perview,
+            // '/blog/': [
+            //     JS_Perview,
                 // () => import('./router/blog/JS_Perview'),
                 // () => import('./router/blog/JS_Perview'),
                 // () => import('./router/blog/JS_Vue'),
@@ -40,8 +41,8 @@ module.exports = {
                 // () => import('./router/blog/JS_H5_WebAPI'),
                 // () => import('./router/blog/HTTP'),
                 // () => import('./router/blog/Soft_skill'),
-                '声明'
-            ],
+            //     '声明'
+            // ],
             '/question/': [
                 {
                     title: '编程练习',
