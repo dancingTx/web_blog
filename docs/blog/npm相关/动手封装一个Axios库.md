@@ -166,8 +166,8 @@ const router = new Router({
 // 通过给路由设置meta信息判断是否需要鉴权
 // 类似于登录，注册等页面是不需要鉴权就可以直接访问的
 // meta信息中添加一个 requireLogin 字段用于判断鉴权
-router.beforeEach((to, from, next) => {
-  if (to.matched.some(res => res.meta.requireLogin)) {
+router.beforeEach((tos, from, next) => {
+  if (tos.matched.some(res => res.meta.requireLogin)) {
     // 如果需要登录权限
     if (localStorage.getItem('login_info')) {
       //判断是否已经登录
