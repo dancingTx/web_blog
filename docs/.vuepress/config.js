@@ -56,7 +56,8 @@ module.exports = {
                 {
                     title: 'NPM',
                     children: [
-                        'npm相关/动手封装一个Axios库'
+                        // 'npm相关/动手封装一个Axios库'
+                        'npm相关/测试文档'
                     ]
                 },
                 {
