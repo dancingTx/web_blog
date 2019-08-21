@@ -1,13 +1,13 @@
-import JS_Perview from './blog/JS_Perview'
-import JS_Vue from './blog/JS_Vue'
-import JS_React from './blog/JS_React'
-import JS_Node from './blog/JS_Node'
-import JS_NPM from './blog/JS_NPM'
-import JS_Auto from './blog/JS_Auto'
-import JS_H5 from './blog/JS_H5'
-import JS_H5_WebAPI from './blog/JS_H5_WebAPI'
-import HTTP from './blog/HTTP'
-import Soft_Skill from './blog/Soft_Skill'
+const JS_Perview = require('./blog/JS_Perview')
+const JS_Vue = require('./blog/JS_Vue') 
+const JS_React = require('./blog/JS_React') 
+const JS_Node = require('./blog/JS_Node') 
+const JS_NPM = require('./blog/JS_NPM') 
+const JS_Auto = require('./blog/JS_Auto') 
+const JS_H5 = require('./blog/JS_H5') 
+const JS_H5_WebAPI = require('./blog/JS_H5_WebAPI') 
+const HTTP = require('./blog/HTTP') 
+const Soft_Skill = require('./blog/Soft_Skill') 
 
 const sidebar = {
     '/blog/': [

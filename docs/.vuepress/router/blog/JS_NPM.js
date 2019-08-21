@@ -5,4 +5,4 @@ const JS_NPM = {
     ]
 }
 
-export default JS_NPM
+module.exports = JS_NPM

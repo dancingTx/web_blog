@@ -5,4 +5,4 @@ const JS_React = {
     ]
 }
 
-export default JS_React
+module.exports = JS_React

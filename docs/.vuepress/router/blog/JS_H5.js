@@ -6,4 +6,4 @@ const JS_H5 = {
     ]
 }
 
-export default JS_H5
+module.exports = JS_H5

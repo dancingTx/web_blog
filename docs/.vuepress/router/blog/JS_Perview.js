@@ -8,4 +8,4 @@ const JS_Perview = {
         'JavaScript相关/Console不止log'
     ]
 }
-export default JS_Perview
+module.exports = JS_Perview
