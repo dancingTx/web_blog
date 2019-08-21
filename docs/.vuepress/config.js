@@ -54,6 +54,12 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'NPM',
+                    children: [
+                        'npm相关/动手封装一个Axios库'
+                    ]
+                },
+                {
                     title: 'H5移动端',
                     children: [
                         'HTML5相关/H5移动端/基于淘宝弹性布局方案lib-flexible的问题研究',
