@@ -8,4 +8,4 @@ const JS_Vue = {
     ]
 }
 
-module.exports = JS_Vue
+export default JS_Vue

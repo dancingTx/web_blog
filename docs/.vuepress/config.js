@@ -1,5 +1,9 @@
-const SideBar = require('./router')
+// const SideBar = {
+//     // '/question/': [
 
+//     // ]
+// }
+const JS_Perview = require('./router/blog/JS_Perview')
 module.exports = {
     base: '/web_blog/',
     title: '前端菜鸟的进阶之路',
@@ -23,7 +27,21 @@ module.exports = {
         ],
         // 侧边栏
         sidebar: {
-            ...SideBar,
+            '/blog/': [
+                JS_Perview,
+                // () => import('./router/blog/JS_Perview'),
+                // () => import('./router/blog/JS_Perview'),
+                // () => import('./router/blog/JS_Vue'),
+                // () => import('./router/blog/JS_React'),
+                // () => import('./router/blog/JS_Node'),
+                // () => import('./router/blog/JS_NPM'),
+                // () => import('./router/blog/JS_Auto'),
+                // () => import('./router/blog/JS_H5_Mobile'),
+                // () => import('./router/blog/JS_H5_WebAPI'),
+                // () => import('./router/blog/HTTP'),
+                // () => import('./router/blog/Soft_skill'),
+                '声明'
+            ],
             '/question/': [
                 {
                     title: '编程练习',

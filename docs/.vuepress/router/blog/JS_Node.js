@@ -5,4 +5,4 @@ const JS_Node = {
     ]
 }
 
-module.exports = JS_Node
+export default JS_Node

@@ -5,4 +5,4 @@ const Soft_Skill = {
     ]
 }
 
-module.exports = Soft_Skill
+export default Soft_Skill

@@ -9,4 +9,4 @@ const HTTP = {
     ]
 }
 
-module.exports = HTTP
+export default HTTP
