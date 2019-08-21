@@ -1,4 +1,5 @@
-import router from './router'
+import SideBar from './router'
+
 module.exports = {
     base: '/web_blog/',
     title: '前端菜鸟的进阶之路',
@@ -22,7 +23,7 @@ module.exports = {
         ],
         // 侧边栏
         sidebar: {
-            ...router,
+            ...SideBar,
             '/question/': [
                 {
                     title: '编程练习',

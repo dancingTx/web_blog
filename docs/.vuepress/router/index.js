@@ -10,7 +10,7 @@ import HTTP from './blog/HTTP'
 import Soft_Skill from './blog/Soft_Skill'
 
 const sidebar = {
-    '/blog/':[
+    '/blog/': [
         ...JS_Perview,
         ...JS_Vue,
         ...JS_React,
@@ -24,7 +24,7 @@ const sidebar = {
         '声明'
     ],
     // '/question/': [
-        
+
     // ]
 }
 
