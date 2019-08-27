@@ -337,6 +337,6 @@ WebPack 和 Rollup 作为构建工具，都拥有着各自的优势和使用场�
 
 [Webpack vs Rollup](https://blog.csdn.net/wangyiyungw/article/details/84955909)
 
-[[Webpack 和 Rollup ：一样但又不同](https://www.html.cn/archives/7703)](https://www.html.cn/archives/7703)
+[Webpack 和 Rollup ：一样但又不同](https://www.html.cn/archives/7703)
 
 [前端进阶（6） - webpack 之外的另一种选择：rollup](https://www.jianshu.com/p/0e462e43dfc5)
