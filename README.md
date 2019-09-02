@@ -26,6 +26,7 @@
 ### React
 - **[为什么会出现React_Hooks？](./docs/blog/React相关/为什么会出现React_Hooks？.md)**
 - **[React中的生命周期](./docs/blog/React相关/React中的生命周期.md)**
+- **[新手入坑迷点解疑](./docs/blog/React相关/新手入坑迷点解疑.md)**
 
 ### Node
 - **[用Node实现爬虫](./docs/blog/Node相关/用Node实现爬虫.md)**
