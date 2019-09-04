@@ -2,7 +2,7 @@
 
 > GraphQL 俨然成为了 API 开发中的新标准。
 
-![](.images/useGraph/top-5-reasons-to-use-graphql.png)
+![](./images/useGraph/top-5-reasons-to-use-graphql.png)
 
 仅仅用了两年多的时间，GraphQL 就已经走在了 API 开发的最前沿。在本篇文章中，我们将解释为什么研发人员喜欢 GraphQL 并揭示其快速被采用的主要原因。
 
@@ -72,7 +72,7 @@ GraphQL bindings 通过重用和共享 GraphQL API 的简单方法，将`schema 
 
 GraphQL 社区日益壮大。许多小型和大型的公司开始在生产中使用它，并且越来越多的 GraphQL Meetup 正在全世界范围内建立。
 
-![](.images/useGraph/185619-5e1d7f44ad2d9418.jpg)
+![](./images/useGraph/185619-5e1d7f44ad2d9418.jpg)
 
 ## 原文链接
 
