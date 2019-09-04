@@ -49,6 +49,7 @@
 
 - **[深入理解ESLint](./docs/blog/前端自动化/深入理解ESLint.md)**
 - **[从WebPack到Rollup](./docs/blog/前端自动化/从WebPack到Rollup.md)**
+- **[使用GraphQL的五大理由](./docs/blog/前端自动化及工具/使用GraphQL的五大理由.md)**
 
 ### 网络协议知多少
 
