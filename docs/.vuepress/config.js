@@ -17,7 +17,7 @@ const SideBar = {
         require(`${BASE_URL}/question/Coding_Training`),
         require(`${BASE_URL}/question/Explain_JS`),
         require(`${BASE_URL}/question/Explain_Vue.js`),
-        require(`${BASE_URL}/question/Explain_HTTP.js`),
+        require(`${BASE_URL}/question/Explain_Network.js`),
         require(`${BASE_URL}/question/Theory_JS.js`),
         require(`${BASE_URL}/question/LeetCode.js`)
     ]
