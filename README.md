@@ -90,19 +90,19 @@
 
 #### JavaScript
 
-- **[[js]$1.为什么0.1+0.2！==0.3](./docs/question/面试相关/解释问题/JavaScript面试题/[js]$1.为什么0.1+0.2！==0.3.md)**
+- **[为什么0.1+0.2！==0.3](./docs/question/面试相关/解释问题/JavaScript面试题/为什么0.1+0.2！==0.3.md)**
 
 #### Vue
 
-- **[[vue]$1.你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解](./docs/question/面试相关/解释问题/Vue面试题/[vue]$1.你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解.md)**
-- **[[vue]$2.谈谈你对MVVM开发模式的理解](./docs/question/面试相关/解释问题/Vue面试题/[vue]$2.谈谈你对MVVM开发模式的理解.md)**
-- **[[vue]$3.生命周期钩子函数](./docs/question/面试相关/解释问题/Vue面试题/[vue]$3.生命周期钩子函数.md)**
-- **[[vue]$4.组件通信](./docs/question/面试相关/解释问题/Vue面试题/[vue]$4.组件通信.md)**
-- **[[vue]$5.v-show与v-if区别](./docs/question/面试相关/解释问题/Vue面试题/[vue]$5.v-show与v-if区别.md)**
-- **[[vue]$6.组件中data什么时候可以使用对象](./docs/question/面试相关/解释问题/Vue面试题/[vue]$6.组件中data什么时候可以使用对象.md)**
-- **[[vue]$7.vue中怎么重置data？](./docs/question/面试相关/解释问题/Vue面试题/[vue]$7.vue中怎么重置data？.md)**
-- **[[vue]$8.vue渲染模板时怎么保留模板中的HTML注释呢？](./docs/question/面试相关/解释问题/Vue面试题/[vue]$8.vue渲染模板时怎么保留模板中的HTML注释呢？.md)**
-- **[[vue]$9.computed和watch有什么区别？](./docs/question/面试相关/解释问题/Vue面试题/[vue]$9.computed和watch有什么区别？.md)**
+- **[你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解](./docs/question/面试相关/解释问题/Vue面试题/你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解.md)**
+- **[谈谈你对MVVM开发模式的理解](./docs/question/面试相关/解释问题/Vue面试题/谈谈你对MVVM开发模式的理解.md)**
+- **[生命周期钩子函数](./docs/question/面试相关/解释问题/Vue面试题/生命周期钩子函数.md)**
+- **[组件通信](./docs/question/面试相关/解释问题/Vue面试题/组件通信.md)**
+- **[v-show与v-if区别](./docs/question/面试相关/解释问题/Vue面试题/v-show与v-if区别.md)**
+- **[组件中data什么时候可以使用对象](./docs/question/面试相关/解释问题/Vue面试题/组件中data什么时候可以使用对象.md)**
+- **[vue中怎么重置data？](./docs/question/面试相关/解释问题/Vue面试题/vue中怎么重置data？.md)**
+- **[vue渲染模板时怎么保留模板中的HTML注释呢？](./docs/question/面试相关/解释问题/Vue面试题/vue渲染模板时怎么保留模板中的HTML注释呢？.md)**
+- **[computed和watch有什么区别？](./docs/question/面试相关/解释问题/Vue面试题/computed和watch有什么区别？.md)**
 
 #### HTTP 网络协议
 
