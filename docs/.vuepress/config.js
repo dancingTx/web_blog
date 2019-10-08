@@ -11,6 +11,7 @@ const SideBar = {
         require(`${BASE_URL}/blog/JS_H5_WebAPI`),
         require(`${BASE_URL}/blog/HTTP`),
         require(`${BASE_URL}/blog/Soft_Skill`),
+        require(`${BASE_URL}/blog/DATA_Structure`),
         '声明'
     ],
     '/question/': [

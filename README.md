@@ -60,6 +60,10 @@
 - **[HTTP缓存机制](./docs/blog/网络相关/HTTP缓存机制.md)**
 - **[[译]五步理解JSON Web Token(JWT)](./docs/blog/网络相关/[译]五步理解JSONWebToken（JWT）.md)**
 
+### 数据结构
+
+- **[链表](./docs/blog/数据结构/链表.md)**
+
 ### 软技能
 
 - **[如何处理技术债](./docs/blog/软技能/如何处理技术债.md)**
